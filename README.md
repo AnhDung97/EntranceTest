@@ -6,3 +6,4 @@
 + Better design, better UX.
 + Refactor code to make my page smoother.
 + Research more about Ionic.
++ Add and update more UT.
