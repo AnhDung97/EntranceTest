@@ -1,0 +1,126 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "backgroundUrl": "../assets/images/Mountain1.jpg",
+            "hitzone": [
+                30
+            ],
+            "addressId": [
+                1,
+                -1
+            ]
+        },
+        {
+            "id": 1,
+            "backgroundUrl": "../assets/images/Mountain2.jpg",
+            "hitzone": [
+                50,
+                50
+            ],
+            "addressId": [
+                2,
+                0
+            ]
+        },
+        {
+            "id": 2,
+            "backgroundUrl": "../assets/images/Mountain3.jpg",
+            "hitzone": [
+                50,
+                50
+            ],
+            "addressId": [
+                3,
+                1
+            ]
+        },
+        {
+            "id": 3,
+            "backgroundUrl": "../assets/images/Mountain4.jpg",
+            "hitzone": [
+                50,
+                50
+            ],
+            "addressId": [
+                4,
+                2
+            ]
+        },
+        {
+            "id": 4,
+            "backgroundUrl": "../assets/images/Mountain5.jpg",
+            "hitzone": [
+                50,
+                50
+            ],
+            "addressId": [
+                5,
+                3
+            ]
+        },
+        {
+            "id": 5,
+            "backgroundUrl": "../assets/images/Mountain6.jpg",
+            "hitzone": [
+                45,
+                20,
+                35
+            ],
+            "addressId": [
+                4,
+                6,
+                7
+            ]
+        },
+        {
+            "id": 6,
+            "backgroundUrl": "../assets/images/Mountain7.jpg",
+            "hitzone": [
+                40
+            ],
+            "addressId": [
+                5,
+                -1
+            ]
+        },
+        {
+            "id": 7,
+            "backgroundUrl": "../assets/images/Mountain8.jpg",
+            "hitzone": [
+                50,
+                25,
+                25
+            ],
+            "addressId": [
+                6,
+                8,
+                9
+            ]
+        },
+        {
+            "id": 8,
+            "backgroundUrl": "../assets/images/Mountain9.jpg",
+            "hitzone": [
+                30,
+                40
+            ],
+            "addressId": [
+                9,
+                7
+            ]
+        },
+        {
+            "id": 9,
+            "backgroundUrl": "../assets/images/Mountain10.jpg",
+            "hitzone": [
+                30,
+                40
+            ],
+            "addressId": [
+                7,
+                8
+            ]
+        }
+    ]
+}

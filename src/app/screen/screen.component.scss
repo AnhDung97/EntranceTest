@@ -1,0 +1,56 @@
+.screen-wrapper {
+
+    overflow-x: scroll;
+
+    .screen {
+        
+        width: 500vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+    
+        &__left--btn, &__right--btn {
+            width: 50px;
+            position: absolute;
+        }
+
+        &__left--btn {
+            left: 0;
+        }
+
+        &__right--btn {
+            right: 0;
+            transform: rotate(180deg);
+        }
+
+        &__moving--btn {
+            width: 80px;
+            position: absolute;
+            bottom: 0;
+            left: 40%;
+            transform: translate(-40%,0) rotate(-45deg);
+        }
+
+        &__left {
+            left: 40%;
+            transform: translate(-40%,0) rotate(-45deg);
+        }
+
+        &__middle {
+            bottom: 10%;
+            left: 50%;
+            transform: translate(-50%,0);
+        }
+
+        &__right {
+            left: 60%;
+            transform: translate(-60%,0) rotate(45deg);
+        }
+    }
+
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}

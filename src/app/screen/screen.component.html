@@ -1,0 +1,9 @@
+<div appScreen (scrollLeft)="handleScroll($event)" class="screen-wrapper">
+  <div class="screen" #screen [ngStyle]="{'background-image': urlImages}">
+    <img class="screen__left--btn" src="../../assets/icon/caret-back-outline.svg" alt="">
+    <img class="screen__right--btn" src="../../assets/icon/caret-back-outline.svg" alt="">
+    <img class="screen__moving--btn screen__left"
+      [ngClass]="{'screen__left': arrowState[0], 'screen__middle': arrowState[1], 'screen__right': arrowState[2]}"
+      (click)="handleClickMovingArrow()" src="../../assets/icon/moving-arrow.svg" alt="">
+  </div>
+</div>
