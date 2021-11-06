@@ -1,12 +1,24 @@
-import { TestBed } from '@angular/core/testing';
+import { TestBed, inject } from '@angular/core/testing';
+import { HttpBackend, HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpTestingController, HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { ScreenService } from './screen.service';
 
-describe('ScreenService', () => {
+describe('Checking ScreenService', () => {
+  let httpClient: HttpClient;
+  let httpTestingController: HttpTestingController;
   let service: ScreenService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule, HttpClientModule],
+      providers: [
+        ScreenService
+      ]
+    });
+
+    httpClient = TestBed.get(HttpClient);
+    httpTestingController = TestBed.get(HttpTestingController);
     service = TestBed.inject(ScreenService);
   });
 

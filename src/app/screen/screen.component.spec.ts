@@ -1,7 +1,9 @@
+import { HttpClientModule } from '@angular/common/http';
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
 import { ScreenComponent } from './screen.component';
+import { ScreenDirective } from './screen.directive';
 
 describe('ScreenComponent', () => {
   let component: ScreenComponent;
@@ -9,8 +11,8 @@ describe('ScreenComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ScreenComponent ],
-      imports: [IonicModule.forRoot()]
+      declarations: [ScreenComponent, ScreenDirective],
+      imports: [IonicModule.forRoot(), HttpClientModule]
     }).compileComponents();
 
     fixture = TestBed.createComponent(ScreenComponent);
