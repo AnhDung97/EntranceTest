@@ -4,7 +4,7 @@
             "id": 0,
             "backgroundUrl": "../assets/images/Mountain1.jpg",
             "hitzone": [
-                30
+                50
             ],
             "addressId": [
                 1,
@@ -64,8 +64,8 @@
             "backgroundUrl": "../assets/images/Mountain6.jpg",
             "hitzone": [
                 45,
-                20,
-                35
+                25,
+                30
             ],
             "addressId": [
                 4,
@@ -93,7 +93,7 @@
                 25
             ],
             "addressId": [
-                6,
+                5,
                 8,
                 9
             ]
@@ -114,7 +114,7 @@
             "id": 9,
             "backgroundUrl": "../assets/images/Mountain10.jpg",
             "hitzone": [
-                30,
+                50,
                 40
             ],
             "addressId": [

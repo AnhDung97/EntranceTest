@@ -14,6 +14,7 @@
         &__left--btn, &__right--btn {
             width: 50px;
             position: absolute;
+            cursor: pointer;
         }
 
         &__left--btn {
@@ -31,6 +32,7 @@
             bottom: 0;
             left: 40%;
             transform: translate(-40%,0) rotate(-45deg);
+            cursor: pointer;
         }
 
         &__left {
